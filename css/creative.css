@@ -417,6 +417,21 @@ h2 {
     transition: all .35s;
 }
 
+
+
+.titulos-menu{
+     line-height: 2;
+     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+     text-align: center;
+     color:black;
+}
+
+/*.titulos-background{
+    display:block;
+    padding-top: 30px;
+    background: rgba(240,95,64,.9);
+}*/
+
 .btn-default:hover,
 .btn-default:focus,
 .btn-default.focus,
