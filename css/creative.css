@@ -82,7 +82,7 @@ aside {
 
 
 .margin-logo{
-    margin-top: -13px;
+    margin-top: -29px;
 }
 
 
@@ -312,6 +312,17 @@ h2 {
 
 .service-box p {
     margin-bottom: 0;
+}
+
+
+.redes{
+    font-size: 35px;
+}
+
+.redeslink{
+    color: white;
+    margin-right: 15px;
+    animation-duration: 4s;
 }
 
 .bg-services{
@@ -589,6 +600,11 @@ body {
 .anibounceInDown{
     animation-duration: 2s;
    animation-name: bounceInDown;
+}
+
+.anibounceInDownRedes{
+    animation-duration: 4s;
+   animation-name: bounceIn;
 }
 
 .anibounceInUp{
