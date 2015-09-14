@@ -337,7 +337,7 @@ h2 {
     background-size: cover;
 }
 
-   @media(min-width:768px) {
+    @media only screen and (max-device-width: 700px){
         .bg-services{
             background-image: url(../img/pachucamovil.jpg); 
             background-position: center;
