@@ -447,6 +447,11 @@ h2 {
     background: rgba(240,95,64,.9);
 }*/
 
+
+.atendemos{
+    font-size: 2.6em;
+}
+
 .btn-default:hover,
 .btn-default:focus,
 .btn-default.focus,
