@@ -11,7 +11,7 @@ body {
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 hr {
@@ -38,8 +38,15 @@ a:focus {
    color:#d7a118;
 }
 
-h1,
-h2,
+h1{
+   /* font-family: 'Amatic SC', sans-serif;*/
+        
+}
+h2{
+    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+}
 h3,
 h4,
 h5,
@@ -51,6 +58,12 @@ p {
     margin-bottom: 20px;
     font-size: 16px;
     line-height: 1.5;
+
+}
+
+.p-correo-phone{
+     font-family: 'Amatic SC', 'Open Sans', sans-serif;
+     font-size: 2em;
 }
 
 .bg-primary {
@@ -66,6 +79,7 @@ p {
 
 .text-faded {
     /*color: rgba(255,255,255,.7);*/
+    font-family: 'Open Sans', sans-serif;
     color: white;
 }
 
@@ -289,11 +303,15 @@ header .header-content .header-content-inner p {
 
 .section-heading {
     margin-top: 0;
+    font-family: 'Amatic SC', 'Open Sans', sans-serif;
+    font-size: 4em;
 }
 
 .section-heading-black {
     margin-top: 0;
     color:black;
+     font-family: 'Amatic SC', 'Open Sans', sans-serif;
+    font-size: 4em;
 }
 
 h2 {
@@ -318,12 +336,14 @@ h2 {
 
 .redes{
     font-size: 35px;
+    
 }
 
 .redeslink{
     color: white;
     margin-right: 15px;
     animation-duration: 4s;
+
 }
 .redeslink:hover{
     color:#ff3e3d;
@@ -347,6 +367,10 @@ h2 {
         }
 
     }
+
+
+
+
 
 .portfolio-box {
     display: block;
@@ -445,9 +469,10 @@ h2 {
 
 .titulos-menu{
      line-height: 2;
-     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+     font-family: 'Amatic SC','Open Sans','Helvetica Neue',Arial,sans-serif;
      text-align: center;
      color:black;
+     font-size: 3em;
 }
 
 /*.titulos-background{
@@ -458,7 +483,8 @@ h2 {
 
 
 .atendemos{
-    font-size: 2.6em;
+    font-family: 'Amatic SC', 'Open Sans', sans-serif;
+    font-size: 4em;
 }
 
 .btn-default:hover,
@@ -604,7 +630,8 @@ body {
 
 
 .btn-primary{
-    background-color: #d7a118;
+    /*background-color: #d7a118;*/
+    background-color: #ff3e3d;
 }
 
 .historia{
@@ -715,9 +742,10 @@ textarea{
 
 
 label{
-     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+     font-family: 'Amatic SC','Open Sans','Helvetica Neue',Arial,sans-serif;
      margin-left: 0px;
      text-align: justify;
+     font-size: 2.5em;
 }
 
 form li{
